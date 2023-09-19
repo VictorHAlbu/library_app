@@ -5,9 +5,9 @@ Essa projeto é uma **API** responsável por gerenciar um catalogo de lojas (**S
 Essa **API** deve ser constituída por:
 
  - Um Model **User** com os atributos **name, email e password**
- - Um Model **Store** com os atributos **name, user_id**
+ - Um Model **Book** com os atributos **name, user_id**
  -  Onde:
-	 - **Store** pertence à **User**
+	 - **Book** pertence à **User**
 
 Obs: Essa api usa Autenticação com JWT
 
